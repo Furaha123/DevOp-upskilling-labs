@@ -1,0 +1,34 @@
+
+S3 Bucket Security
+------------------------------------------------------------
+Bucket: amalitech-devops-ap-southeast-1-20251005-000152
+  ✓ Public Access Block is configured.
+  ✓ Default encryption is ENABLED.
+Bucket: amalitech-devops-eu-west-1-20251005-000152
+  ✓ Public Access Block is configured.
+  ✓ Default encryption is ENABLED.
+Bucket: amalitech-devops-us-east-1-20251005-000152
+  ✓ Public Access Block is configured.
+  ✓ Default encryption is ENABLED.
+
+IAM Security (Account-Level)
+------------------------------------------------------------
+  ✓ Root account MFA is ENABLED.
+  ⚠ Account password policy is NOT configured.
+Generating IAM credential report... failed.
+  ⚠ Could not download credential report.
+
+CloudTrail
+------------------------------------------------------------
+  ⚠ No CloudTrail trails found.
+
+VPC Flow Logs
+------------------------------------------------------------
+  ⚠ No VPC Flow Logs found. Enable for at least key VPCs.
+
+Security Groups (Overly Permissive Ingress)
+------------------------------------------------------------
+  ✓ No security groups with wide-open inbound (0.0.0.0/0 or ::/0).
+------------------------------------------------------------
+❗ Security audit completed: 4 issue(s) found.
+------------------------------------------------------------
